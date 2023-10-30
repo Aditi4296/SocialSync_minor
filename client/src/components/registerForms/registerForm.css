@@ -1,0 +1,40 @@
+.form-container{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  flex-direction: column;
+}
+.form-container form {
+    padding: 20px;
+    background-color: #fff;
+}
+.form-container form input {
+    border: none;
+    border-bottom: 1px solid #E5E5E5;
+    border-radius: 0;
+}
+.form-container form button {
+    border-radius: 15px;
+    background-color: #61B9BD;
+    color: white;
+    width: 250px;
+    border: 1px solid #61B9BD;
+}
+.form-container form button:hover {
+    /* border: 1px solid black; */
+    /* background: #000000; fallback for old browsers */
+    background-color: #E54357;
+    border: 1px solid #E54357;
+    /* background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000 */
+    /* ); Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(
+      to right,
+      #434343,
+      #000000 */
+    /* ); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
