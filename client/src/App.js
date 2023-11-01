@@ -86,8 +86,8 @@ function App() {
           <Route exact path='/:page/:id' component={PageRender} />
         </Routes>
         <div className='wrap_page'>
-          <PrivateRouter exact path='/:page' component={PageRender} />
-          <PrivateRouter exact path='/:page/:id' component={PageRender} />
+          {/* <PrivateRouter exact path='/:page' component={PageRender} />
+          <PrivateRouter exact path='/:page/:id' component={PageRender} /> */}
         </div>
           
         </div>
