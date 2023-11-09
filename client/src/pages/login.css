@@ -23,9 +23,9 @@
 .login--image{
     display: flex;
     flex-direction: column;
-    border-radius: 20px 50px 50px 20px;
+    border-radius: 0px 50px 50px 0px;
     border: 0px solid #FFFEEF;
-    max-width: 700px;
+    max-width: 600px;
     background: #FFFEEF;
 }
 .login--form{
@@ -50,7 +50,6 @@
     max-width: 60vw;
     max-height: 80vh;
     margin-top: -50px;
-
 }
 
 .image-r img{
@@ -86,4 +85,43 @@
 .login a{
     color: #61B9BD;
     text-decoration: none;
+}
+.auth_page{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    min-height: 30vh;
+    flex-direction: column;
+    max-height: 60vh;
+    margin-top: 4%;
+}
+
+.auth_page input{
+    height: 23px;
+}
+
+.auth_page form{
+    padding: 0px;
+    background-color: #fff;
+    border: none;
+    
+}
+
+.auth_page form input{
+    border: none;
+    border-bottom: 1px solid #E5E5E5;
+    border-radius: 0;
+}
+
+.auth_page form .btn {
+    border-radius: 15px;
+    background-color: #61B9BD;
+    color: white;
+    width: 250px;
+    border: 1px solid #61B9BD;
+}
+
+.auth_page form button:hover {
+    background-color: #E54357;
+    border: 1px solid #E54357;
 }
