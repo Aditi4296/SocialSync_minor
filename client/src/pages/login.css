@@ -115,10 +115,10 @@
 
 .auth_page form .btn {
     border-radius: 15px;
-    background-color: #61B9BD;
+    background-color: #4494A3;
     color: white;
     width: 250px;
-    border: 1px solid #61B9BD;
+    border: 1px solid #4494A3;
 }
 
 .auth_page form button:hover {

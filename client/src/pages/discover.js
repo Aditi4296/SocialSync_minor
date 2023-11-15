@@ -26,7 +26,7 @@ const Discover = () => {
     }
 
     return (
-        <div>
+        <div style={{margin: '0px 40px 0px 250px'}}>
             {
                 discover.loading 
                 ? <img src={LoadIcon} alt="loading" className="d-block mx-auto my-4" />

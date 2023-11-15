@@ -1,3 +1,8 @@
+.home{
+    margin: 0px 40px 0px 250px;
+    width: 100%;
+    /* background-color: #b9eced; */
+}
 /* --------- Status ---------- */
 .status{
     background: white;
@@ -21,6 +26,7 @@
 }
 
 /* ------------Posts ------ */
+
 .posts .card{
     box-shadow: 0 0 4px #ddd;
 }
