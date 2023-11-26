@@ -8,19 +8,28 @@
     box-shadow: 0 0 10px #ddd;
     background: #f8f9fa;
     border: 1px solid rgb(0, 0, 0, .125);
+    position: sticky;
 }
 .header .navbar{
     width: 100%;
     height: 100%;
     padding-right: 800px;
+    justify-content: space-between;
 }
 .header .logo h1{
     font-size: 2rem;
-} 
+}
+
+.header .navbar .nav-logo{
+    margin-top: 0px;
+    max-height: 80px;
+    margin-right: 100px;
+}
 
 /* ----------- Header Menu ---------- */
 .header .menu li{
     opacity: 0.5;
+    margin-left: 10px;
 }
 .header .menu li.active{
     opacity: 1;

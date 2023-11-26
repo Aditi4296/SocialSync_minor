@@ -25,7 +25,7 @@ code {
   width: 100%;
   min-height: 100vh;
   background: white;
-  
+  background-image: url("https://i.pinimg.com/564x/2f/bc/57/2fbc576916510b2a90d22db003058243.jpg");
 }
 
 .main {
@@ -126,4 +126,10 @@ img {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+}
+
+.right-body{
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
 }

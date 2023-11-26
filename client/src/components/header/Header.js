@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Menu from './Menu'
 import Search from './Search'
+import Logo from '../../images/logoSocialSync.png'
+import '../../styles/header.css'
 
 const Header = () => {
 
@@ -13,7 +15,7 @@ const Header = () => {
                 <Link to="/" className="logo">
                     <h1 className="navbar-brand text-uppercase p-0 m-0"
                     onClick={() => window.scrollTo({top: 0})}>
-                        SocialSync
+                        <img src = {Logo} className='nav-logo'/>
                     </h1>
                 </Link>
 
